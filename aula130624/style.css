@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 245, 225);
+    font-family: "Raleway", sans-serif;
+    color: rgb(12, 24, 68);
+}
+
+h1, h2 {
+    color: rgb(200, 0, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color:rgb(255, 105, 105);
+}
+
+a {
+    text-decoration: none;
+    padding-right: 12px;
+}
+
+img {
+    width: 500px;
+    border-radius: 10px;
+
+}
