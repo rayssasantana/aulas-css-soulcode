@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Academia Aqua" />
+    <meta name="keywords" content="Academia, Natação, Hidroginástica, Natação infantil, Natação Adulto, Treinamento Personalizado" />
+    <meta name="description" content="Agende sua aula na melhor academia de modalidades aquáticas do Brasil!" />
+    <link rel="stylesheet" href="agendamento.css"/>
+    <title>Agendamento</title>
+</head>
+
+<body>
+    <header>
+        <h1>Agendamento</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="faq.html">Perguntas Frequentes</a>
+            <a href="empresa.html">Sobre Nós</a>
+            <a href="agendamento.html">Agendamento</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <figure>
+
+    </figure>
+    <main>
+        <section>
+            <h2>Agende sua aula ou Inscreva-se</h2>
+            <p>Agendar suas aulas na Academia Aqua é fácil e rápido! <br>Escolha o melhor horário para você e garanta sua vaga.</p>
+        </section>
+        <section>
+            <h3>Inscrição</h3>
+        </section>
+        <form>
+            <section>
+                <label for="cNome">Nome</label>
+                <input type="text" id="cNome" name="nome" placeholder="Seu nome aqui" required/> 
+            </section>
+
+            <section>
+                <label for="cEmail">E-mail</label>
+                <input type="email" id="cEmail" name="email" placeholder="exemplo@email.com" required> 
+            </section>
+
+            <section>
+                <label for="cSenha">Senha</label>
+                <input type="password" minlength="8" id="cSenha" name="senha" placeholder="Sua senha forte" required>
+            </section>
+
+            <section>
+                <label for="cTelefone">Telefone<label>
+                <input type="tel" id="cTelefone" name="telefone" placeholder="Seu telefone pessoal" required>
+            </section>
+
+            <section>
+                <label for="cDataNasc">Data de Nascimento</label>
+                <input type="date" min="1900-01-01" max="2024-06-13" id="cDataNasc" name="dataNasc" required>
+            </section>
+
+            <section>
+                <label for="cModalidade">Modalidade</label>
+                <select id="cModalidade" required>
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option>Aulas de Natação</option>
+                    <option>Hidroginástica</option>
+                    <option>Aulas para Crianças</option>
+                    <option>Treinamento Personalizado</option>
+                </select>
+            </section>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <section>
+            <h3>Agendamento de aula</h3>
+        </section>
+        <form>
+            <section>
+                <label for="cNome">Nome</label>
+                <input type="text" id="cNome" name="nome" placeholder="Seu nome aqui" required/> 
+            </section>
+
+            <section>
+                <label for="cMatricula">Matrícula</label>
+                <input type="number" id="cMatricula" name="matricula" placeholder="Seu número de matrícula" required> 
+            </section>
+
+            <section>
+                <label for="cDataAula">Data da aula</label>
+                <input type="date" min="2024-06-14" id="cDataAula" name="dataAula" required>
+            </section>
+
+            <section>
+                <label for="cModalidade">Modalidade</label>
+                <select id="cModalidade" required>
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option>Aulas de Natação</option>
+                    <option>Hidroginástica</option>
+                    <option>Aulas para Crianças</option>
+                    <option>Treinamento Personalizado</option>
+                </select>
+            </section>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <section>
+            <h3>Contato</h3>
+            <p>Email: contato@aqua.com</p>
+            <p>Telefone: (11) 00000-0000</p>
+            <p>Endereço: Rua Brasil, 100, São Paulo - SP</p>
+          </section>
+          <hr>
+          <p>&copy; 2024 Academia Aqua. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

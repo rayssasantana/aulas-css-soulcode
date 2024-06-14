@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #b6ffff;
+    font-family: Verdana, sans-serif;
+    color: #005285;
+}
+
+header {
+    background-color: #0ba8e2;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+
+.acabecalho {
+    margin-top: 30px;
+}
+
+a {
+    color: white;
+    background-color: #022d47;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #022d47;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+h2, h3 {
+    color: #022d47;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #0ba8e2;
+    font-size: small;
+}
