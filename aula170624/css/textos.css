@@ -1,0 +1,51 @@
+/* Propriedades de fonte e texto */
+body {
+    /* Define uma lista de fontes a ser usada */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align:center;
+    font-style: italic;
+    font-weight: 700; /* Thin - Black */
+    text-decoration: underline;
+    letter-spacing: 1px;
+    line-height: 16pt;
+    /* hexadecimal / rgb /rgba */
+    /* color: blueviolet; */
+    /* color: rgb(255, 0, 0); */
+    color: rgba(127, 6, 174, 0.5);
+}
+
+/*  - Unidades absolutas: (px, cm, pt, etc.)
+    - Unidades relativas: 
+    - vh: viewport height (altura da tela / banner)
+    - vw: viewport width (largura da tela / banner)
+    - em: relativo ao elemento pai
+    - rem: tipografia / fiel e relativo a raiz
+    -  %: dimensão de caixas
+*/
+
+.quadrado1 {
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+}
+
+.quadrado2 {
+    background-color: rgb(209, 160, 255);
+    width: 50vw;
+    height: 20vh;
+}
+
+.quadrado3 {
+    background-color: rgb(197, 21, 216);
+    width: 60%;
+    height: 40%;
+}
+
+.quadrado4 {
+    background-color: violet;
+    height: 300px;
+    width: 400px;
+}

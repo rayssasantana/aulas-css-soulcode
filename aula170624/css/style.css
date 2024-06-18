@@ -1,0 +1,35 @@
+/* Aula CSS 17/06 */
+
+/* Seletor de elemento: todos os elementos da página recebem o estilo */
+p {
+    color:blue
+}
+
+/* Seletor de classe: elementos com atributo class recebem o estilo */
+.destaque {
+    background-color: yellow;
+    color: blueviolet;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+/* Seletor de ID: Aplicado a um único elemento da página */
+#paragrafo {
+    background-color: crimson;
+    color: white;
+    text-align: right;
+}
+
+body {
+    /* Propriedade herdada, passada adiante */
+    font-family: Verdana, sans-serif;
+    background-color: blue;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+/* Especificade: Elemento, Classe, ID */

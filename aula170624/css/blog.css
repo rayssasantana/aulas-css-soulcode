@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.secao {
+    width: 400px;
+    margin: 16px auto;
+    padding: 16px;
+    border-radius: 8px;
+    background: linear-gradient(65deg, green, yellow, purple, black);
+
+}
+
+/* Box Shadow */
+/* box-shadow: x y desfoque spread color */
+.figura {
+    height: 150px;
+    box-shadow: 10px 10px 10px 0px rgb(124, 121, 121);
+}
+
+/* Combinador de descendente */
+.secao p {
+    text-shadow: 1px 1px 2px grey;
+}
