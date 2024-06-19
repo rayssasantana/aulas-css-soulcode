@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #0b0f19;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.navbar img {
+    height: 100%; /*obriga a imagem a ocupar 100% da navbar*/
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px; /*separar itens, força um espaço não existente*/
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover { /*.nav-links a:hover - se quiser estilizar só os links da nav*/
+    color: #d9b800;
+}
+
+@media (max-width: 480px) {
+    /* - trocar a navbar de row para column */
+    /* - redefinir a altura da navbar */
+    /* - alinhar os elementos */
+    
+    .navbar {
+
+    }
+
+    /* - ajustar a largura*/
+    .navbar img {
+
+    }
+
+    /* - row p/ column */
+    .nav-links {
+
+    }
+}
+

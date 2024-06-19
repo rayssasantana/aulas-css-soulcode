@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header {
+    background-color: #0B0F19;
+    height: 64px;
+    display: flex;
+    align-items: center; /*alinhou centro vertical*/
+    justify-content: space-between; /*espaço entre horizontal*/
+    padding: 0 10px; /*o prof deu um padding geral de 12px*/
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-weight: 700px;
+    color: white;
+}
+
+.nav a:hover {
+    color: #d9b800;
+}
+
+.nav {
+    display: flex;
+    gap: 12px; /*separar itens, força um espaço não existente*/
+    align-items: center;
+}
+
+img {
+    width: 200px;
+}

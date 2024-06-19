@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.item-1 {
+    background-color: rgb(255, 0, 0);
+}
+
+.item-2 {
+    background-color: rgb(255, 162, 0);
+}
+
+.item-3 {
+    background-color: rgb(43, 226, 101);
+    /* Define o alinhamento individual no eixo cross */
+    /* flex-start, flex-end, center, stretch*/
+    align-self: flex-start;
+}
+
+.item-4 {
+    background-color: rgb(43, 226, 220);
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    width: 200px;
+    padding: 8px;
+}
+
+.container {
+    background-color: rgb(127, 127, 206);
+    /* padding: 8px; */
+    /* Ativa o flexbox */
+    display: flex;
+    /* Define se é row/column */
+    flex-direction: row;
+    /* Define se há quebra de linha ao faltar espaço */
+    flex-wrap: wrap;
+    /* Ajustar os elementos no eixo main (horizontal/row) */
+    /* start: padrão, end: final, center: center, space-between: entre os objetos, space-around: ao redor dos objetos, space-evenly: uniformemente entre os elementos */
+    justify-content: center;
+    /* Ajustar os elementos no eixo cross (vertical/row) */
+    /* stretch: esticar/padrão, flex-start:, flex-end:, */
+    align-items: center;
+    height: 100vh;
+    /* Ajusta os elementos quando usamos wrap */
+    /* space-between:, space-around:, center:, flex-start:, flex-end:, */
+    /* align-content: center; */
+    gap: 16px
+
+}
