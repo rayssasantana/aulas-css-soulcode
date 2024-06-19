@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 
 .navbar {
@@ -18,12 +18,12 @@ html {
 }
 
 .navbar img {
-    height: 100%; /*obriga a imagem a ocupar 100% da navbar*/
+    height: 100%;
 }
 
 .nav-links {
     display: flex;
-    gap: 12px; /*separar itens, força um espaço não existente*/
+    gap: 12px;
     align-items: center;
 }
 
@@ -32,27 +32,69 @@ html {
     color: white;
 }
 
-a:hover { /*.nav-links a:hover - se quiser estilizar só os links da nav*/
+.nav-links a:hover {
     color: #d9b800;
 }
 
+/* Navbar Responsiva */
 @media (max-width: 480px) {
     /* - trocar a navbar de row para column */
     /* - redefinir a altura da navbar */
     /* - alinhar os elementos */
     
     .navbar {
-
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 12px;
     }
 
-    /* - ajustar a largura*/
     .navbar img {
-
+        width: 156px;
     }
 
-    /* - row p/ column */
     .nav-links {
-
+        flex-direction: column;
     }
 }
 
+/* Seção de Cards Responsivo */
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.section-card {
+    width: 320px;
+    display: flex;
+    padding: 16px;
+    background-color: wheat;
+    gap: 16px;
+}
+
+.section-card img  {
+    width: 120px;
+}
+
+.section-card p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .section-card {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+
+    .section-card img {
+        width: 100%;
+    }
+
+    .section-card p {
+        padding: 16px;
+    }
+}
